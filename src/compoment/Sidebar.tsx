@@ -22,7 +22,7 @@ const Sidebar: React.FC = () => {
             {category}
             {index < 2 && <ChevronRight className="w-4 h-4 text-gray-500" />}
           </li>
-        ))}
+        ))}  
       </ul>
     </aside>
   );

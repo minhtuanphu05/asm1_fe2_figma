@@ -1,10 +1,13 @@
 import React from "react";
 import { Heart, Eye } from "lucide-react";
-
+import img1 from "../img/g04.jpg"
+import img2 from "../img/g276.jpg"
+import img3 from "../img/g207.jpg"
+import img4 from "../img/g233.jpg"
 const products = [
   {
     name: "The north coat",
-    image: "/images/coat.png",
+    image: img1,
     price: 260,
     oldPrice: 360,
     rating: 4.5,
@@ -12,7 +15,7 @@ const products = [
   },
   {
     name: "Gucci duffle bag",
-    image: "/images/bag.png",
+    image:img2,
     price: 960,
     oldPrice: 1160,
     rating: 4.8,
@@ -20,7 +23,7 @@ const products = [
   },
   {
     name: "RGB liquid CPU Cooler",
-    image: "/images/cpu-cooler.png",
+    image: img3,
     price: 160,
     oldPrice: 170,
     rating: 4.6,
@@ -28,7 +31,7 @@ const products = [
   },
   {
     name: "Small BookShelf",
-    image: "/images/bookshelf.png",
+    image: img4,
     price: 360,
     oldPrice: 0,
     rating: 4.7,
